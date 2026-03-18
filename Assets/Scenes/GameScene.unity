@@ -756,7 +756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   ShowTopMostFoldoutHeaderGroup: 1
-  playerPrefab: {fileID: 6446710915957364515, guid: 655f16b7cc5de43f6818ab32e5fe34d7, type: 3}
+  playerPrefab: {fileID: 1149398537100366938, guid: f0411e65883da4487970a2c409dc6ca2, type: 3}
 --- !u!4 &1359872561
 Transform:
   m_ObjectHideFlags: 0

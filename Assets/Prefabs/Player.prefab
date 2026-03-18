@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5601268162060550991}
   - component: {fileID: 2025302807635377144}
   - component: {fileID: 6558119782806271590}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 811663531549717838}
   - component: {fileID: 3578341162475291703}
   - component: {fileID: 1785726228426308694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,14 +296,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6446710915957364515}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3273f66adbf8b4e79bc02c884cf31eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   ShowTopMostFoldoutHeaderGroup: 1
   moveSpeed: 5
+  turnSpeed: 12
   nameText: {fileID: 8992524694365797311}
+  bodyAnimator: {fileID: 0}
 --- !u!1 &8533626868872845218
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +317,7 @@ GameObject:
   - component: {fileID: 6331058885980810776}
   - component: {fileID: 8413750235102704767}
   - component: {fileID: 8992524694365797311}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: NameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
